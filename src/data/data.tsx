@@ -109,12 +109,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Atlanta, USA', Icon: MapIcon},
-    {label: 'Age', text: '20', Icon: CalendarIcon},
+    { label: 'Location', text: 'Atlanta, USA', Icon: MapIcon },
+    { label: 'Age', text: '20', Icon: CalendarIcon },
     // {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Computer Vision, Photography, Robotics, Figure Skating', Icon: SparklesIcon},
-    {label: 'Study', text: 'Georgia Institute Of Technology', Icon: AcademicCapIcon},
-    {label: 'Employment (Summer 2023 Intern)', text: 'Appian', Icon: OfficeBuildingIcon},
+    { label: 'Interests', text: 'Computer Vision, Photography, Robotics, Figure Skating', Icon: SparklesIcon },
+    { label: 'Study', text: 'Georgia Institute Of Technology', Icon: AcademicCapIcon },
+    { label: 'Employment (Summer 2023 Intern)', text: 'Appian', Icon: OfficeBuildingIcon },
   ],
 };
 
@@ -342,9 +342,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/harshmuriki'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/harshmuriki' },
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/venkata-harsh-muriki/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/harshmuriki24/'},
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/venkata-harsh-muriki/' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/harshmuriki24/' },
   // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/harshmuriki'},
 ];
