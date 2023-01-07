@@ -30,7 +30,6 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 // import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
@@ -40,9 +39,7 @@ import {
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 
-
 // import ImageScroll from '../components/Sections/imagescroll';
-
 
 /**
  * Page meta data
@@ -88,11 +85,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a student at Georgia Institute Of Technology <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        as a Software Intern at <strong className="text-stone-100">Appian</strong>
+        I'm a student at Georgia Institute Of Technology{' '}
+        <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working as a Software Intern
+        at <strong className="text-stone-100">Appian</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am interested in the fields of Roboitics and Computer Vision. Check out a few of my current projects and works <strong className="text-stone-100">here!</strong>
+        I am interested in the fields of Roboitics and Computer Vision. Check out a few of my current projects and works{' '}
+        <strong className="text-stone-100">here!</strong>
       </p>
     </>
   ),
@@ -140,66 +139,66 @@ export const skills: SkillGroup[] = [
         name: 'English',
         level: 10,
       },
-//       {
-//         name: 'French',
-//         level: 4,
-//       },
-//       {
-//         name: 'Spanish',
-//         level: 3,
-//       },
+      //       {
+      //         name: 'French',
+      //         level: 4,
+      //       },
+      //       {
+      //         name: 'Spanish',
+      //         level: 3,
+      //       },
     ],
-//   },
-//   {
-//     name: 'Frontend development',
-//     skills: [
-//       {
-//         name: 'React',
-//         level: 9,
-//       },
-//       {
-//         name: 'Typescript',
-//         level: 7,
-//       },
-//       {
-//         name: 'GraphQL',
-//         level: 6,
-//       },
-//     ],
-//   },
-//   {
-//     name: 'Backend development',
-//     skills: [
-//       {
-//         name: 'Node.js',
-//         level: 8,
-//       },
-//       {
-//         name: 'Rust',
-//         level: 5,
-//       },
-//       {
-//         name: 'Golang',
-//         level: 4,
-//       },
-//     ],
-//   },
-//   {
-//     name: 'Mobile development',
-//     skills: [
-//       {
-//         name: 'React Native',
-//         level: 9,
-//       },
-//       {
-//         name: 'Flutter',
-//         level: 4,
-//       },
-//       {
-//         name: 'Swift',
-//         level: 3,
-//       },
-//     ],
+    //   },
+    //   {
+    //     name: 'Frontend development',
+    //     skills: [
+    //       {
+    //         name: 'React',
+    //         level: 9,
+    //       },
+    //       {
+    //         name: 'Typescript',
+    //         level: 7,
+    //       },
+    //       {
+    //         name: 'GraphQL',
+    //         level: 6,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     name: 'Backend development',
+    //     skills: [
+    //       {
+    //         name: 'Node.js',
+    //         level: 8,
+    //       },
+    //       {
+    //         name: 'Rust',
+    //         level: 5,
+    //       },
+    //       {
+    //         name: 'Golang',
+    //         level: 4,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     name: 'Mobile development',
+    //     skills: [
+    //       {
+    //         name: 'React Native',
+    //         level: 9,
+    //       },
+    //       {
+    //         name: 'Flutter',
+    //         level: 4,
+    //       },
+    //       {
+    //         name: 'Swift',
+    //         level: 3,
+    //       },
+    //     ],
   },
 ];
 
@@ -258,11 +257,11 @@ export const experience: TimelineItem[] = [
     title: 'MealPirates',
     content: (
       <p>
-        Leading ideation and front-end web development on a team of 4, using Node.js sub-stack to optimize app functionality and
-        improve customer experience
-        • Developing a food delivery service that aims to deliver restaurant food at prices lower than the current delivery services
-        • Utilizing GIT version control for project collaboration and analysis
-        • Selected by Georgia Tech CreateX Startup launch program, offered $400K in seed funding to launch the product
+        Leading ideation and front-end web development on a team of 4, using Node.js sub-stack to optimize app
+        functionality and improve customer experience • Developing a food delivery service that aims to deliver
+        restaurant food at prices lower than the current delivery services • Utilizing GIT version control for project
+        collaboration and analysis • Selected by Georgia Tech CreateX Startup launch program, offered $400K in seed
+        funding to launch the product
       </p>
     ),
   },
@@ -272,12 +271,11 @@ export const experience: TimelineItem[] = [
     title: 'Undergraduate Student Research',
     content: (
       <p>
-        Applying Object-Oriented CV algorithms coded in python to accurately position a robot arm for an optimal position with
-        respect to the plant
-        • Employing PyTorch and OpenCV python libraries to modify 3D point clouds to convert them to volumetric analysis
-        • Utilizing ROS nodes to automate the data collection processes which reduced the manual workload by 50%
-        • Using C++ and Python libraries to build an algorithm to enable both manual and autonomous control from onsite and remote
-        locations
+        Applying Object-Oriented CV algorithms coded in python to accurately position a robot arm for an optimal
+        position with respect to the plant • Employing PyTorch and OpenCV python libraries to modify 3D point clouds to
+        convert them to volumetric analysis • Utilizing ROS nodes to automate the data collection processes which
+        reduced the manual workload by 50% • Using C++ and Python libraries to build an algorithm to enable both manual
+        and autonomous control from onsite and remote locations
       </p>
     ),
   },
@@ -287,9 +285,9 @@ export const experience: TimelineItem[] = [
     title: 'Intern',
     content: (
       <p>
-        Led quality assurance process for iOS and Android mobile app platforms
-        • Conducted competitor analysis across six companies and identified vital opportunities
-        • Scoped new connectivity features and led a team of designers and developers to bring the product to the market
+        Led quality assurance process for iOS and Android mobile app platforms • Conducted competitor analysis across
+        six companies and identified vital opportunities • Scoped new connectivity features and led a team of designers
+        and developers to bring the product to the market
       </p>
     ),
   },
