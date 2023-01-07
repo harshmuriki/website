@@ -714,7 +714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17.0.39":
+"@types/react@npm:^17.0.52":
   version: 17.0.52
   resolution: "@types/react@npm:17.0.52"
   dependencies:
@@ -5285,7 +5285,7 @@ eslint-config-standard-with-typescript@latest:
     "@tailwindcss/forms": ^0.5.0
     "@tailwindcss/typography": ^0.5.2
     "@types/node": ^17.0.21
-    "@types/react": ^17.0.39
+    "@types/react": ^17.0.52
     "@types/tailwindcss": ^3.0.9
     "@types/webpack-env": ^1.16.3
     "@typescript-eslint/eslint-plugin": ^5.0.0
@@ -5324,7 +5324,7 @@ eslint-config-standard-with-typescript@latest:
     stylelint-prettier: ^2.0.0
     tailwindcss: ^3.0.23
     ts-pattern: ^4.0.3
-    typescript: "*"
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -6243,7 +6243,7 @@ eslint-config-standard-with-typescript@latest:
   languageName: node
   linkType: hard
 
-"typescript@npm:*":
+"typescript@npm:^4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -6253,7 +6253,7 @@ eslint-config-standard-with-typescript@latest:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
   bin:

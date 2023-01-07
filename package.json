@@ -27,7 +27,7 @@
     "@tailwindcss/forms": "^0.5.0",
     "@tailwindcss/typography": "^0.5.2",
     "@types/node": "^17.0.21",
-    "@types/react": "^17.0.39",
+    "@types/react": "^17.0.52",
     "@types/tailwindcss": "^3.0.9",
     "@types/webpack-env": "^1.16.3",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -60,7 +60,7 @@
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0",
     "tailwindcss": "^3.0.23",
-    "typescript": "*"
+    "typescript": "^4.9.4"
   },
   "resolutions": {
     "autoprefixer": "10.4.5"

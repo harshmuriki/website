@@ -4,12 +4,13 @@ import {
   DownloadIcon,
   MapIcon,
   OfficeBuildingIcon,
-  SparklesIcon
+  SparklesIcon,
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import ImageScroll from '../components/Sections/imagescroll';
 import profilepic from '../images/harshpic.jpg';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -28,7 +29,7 @@ import {
   SkillGroup,
   Social,
   TestimonialSection,
-  TimelineItem
+  TimelineItem,
 } from './dataDef';
 
 /**
@@ -58,16 +59,14 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
 /**
  * Hero section
  */
-// const images = [
-//   'src/images/harshpic.jpg',
-//   'src/images/profilepic.jpg',
-//   'src/images/harshpic.jpg',
-//   // add more images here
-// ];
+const images = [
+  'src/images/harshpic.jpg',
+  'src/images/profilepic.jpg',
+  'src/images/harshpic.jpg',
+  // add more images here
+];
 
-// const MyImageScroll = () => (
-//   <ImageScroll images={images} />
-// );
+export const MyImageScroll = () => <ImageScroll images={images} />;
 
 export const heroData: Hero = {
   imageSrc: heroImage,
