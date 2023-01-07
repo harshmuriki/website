@@ -6,9 +6,9 @@ import {memo} from 'react';
 import {HomepageMeta} from '../../data/dataDef';
 
 const Page: NextPage<HomepageMeta> = memo(({children, title, description}) => {
-  <Head>
-    <link rel="icon" href="src/images/favicon.ico" />
-  </Head>
+  // <Head>
+  //   <link rel="icon" href="src/images/favicon.ico" />
+  // </Head>
 
   const {asPath: pathname} = useRouter();
   
