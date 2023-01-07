@@ -1,3 +1,14 @@
+import GithubIcon from '../components/Icon/GithubIcon';
+import heroImage from '../images/header-background.webp';
+import InstagramIcon from '../components/Icon/InstagramIcon';
+import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import profilepic from '../images/harshpic.jpg';
+import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -19,17 +30,6 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import profilepic from '../images/harshpic.jpg';
-import testimonialImage from '../images/testimonial.webp';
 
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
