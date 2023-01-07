@@ -12,7 +12,7 @@ import Section from '../Layout/Section';
 const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
-      <div className="flex flex-col gap-y-9 -my-12">
+      <div className="-my-12 flex flex-col gap-y-9">
         <div className="self-center text-3xl font-bold text-white">Check out some of my work!</div>
         <div className=" w-full columns-2 md:columns-3 lg:columns-4">
           {portfolioItems.map((item, index) => {
