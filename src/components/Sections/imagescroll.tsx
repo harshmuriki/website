@@ -1,11 +1,11 @@
 // import react
-import * as React from "react";
+import * as React from 'react';
 
 interface ImageScrollProps {
   images: string[];
 }
 
-const ImageScroll: React.FunctionComponent<ImageScrollProps> = ({ images }) => {
+const ImageScroll: React.FunctionComponent<ImageScrollProps> = ({images}) => {
   const [currentImage, setCurrentImage] = React.useState(0);
 
   React.useEffect(() => {
