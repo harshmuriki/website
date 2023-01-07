@@ -1,14 +1,3 @@
-import GithubIcon from '../components/Icon/GithubIcon';
-import heroImage from '../images/header-background.webp';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import profilepic from '../images/harshpic.jpg';
-import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -29,6 +18,55 @@ import {
   OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
+import GithubIcon from '../components/Icon/GithubIcon';
+import InstagramIcon from '../components/Icon/InstagramIcon';
+import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import profilepic from '../images/harshpic.jpg';
+import heroImage from '../images/header-background.webp';
+import testimonialImage from '../images/testimonial.webp';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import por
+
+// import GithubIcon from '../components/Icon/GithubIcon';
+// import heroImage from '../images/header-background.webp';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
+// import LinkedInIcon from '../components/Icon/LinkedInIcon';
+// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import profilepic from '../images/harshpic.jpg';
+// import testimonialImage from '../images/testimonial.webp';
+// import {
+//   About,
+//   ContactSection,
+//   ContactType,
+//   Hero,
+//   HomepageMeta,
+//   PortfolioItem,
+//   SkillGroup,
+//   Social,
+//   TestimonialSection,
+//   TimelineItem,
+// } from './dataDef';
+// import {
+//   AcademicCapIcon,
+//   CalendarIcon,
+//   DownloadIcon,
+//   MapIcon,
+//   OfficeBuildingIcon,
+//   SparklesIcon,
+// } from '@heroicons/react/outline';
 
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
