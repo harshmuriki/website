@@ -25,8 +25,9 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/harshpic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import ImageScroll from '../components/Sections/imagescroll';
 import {
   About,
   ContactSection,
@@ -67,26 +68,34 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
 /**
  * Hero section
  */
+// const images = [
+//   'src/images/harshpic.jpg',
+//   'src/images/profilepic.jpg',
+//   'src/images/harshpic.jpg',
+//   // add more images here
+// ];
+
+// const MyImageScroll = () => (
+//   <ImageScroll images={images} />
+// );
+
 export const heroData: Hero = {
   imageSrc: heroImage,
   name: `I'm Harsh Muriki.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a student at Georgia Institute Of Technology <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        as a Software Intern at <strong className="text-stone-100">Appian</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        I am interested in the fields of Roboitics and Computer Vision. Check out a few of my current projects and works <strong className="text-stone-100">here!</strong>
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/static/Resume_Harsh_Muriki_SWE.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -108,12 +117,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Atlanta, USA', Icon: MapIcon},
+    {label: 'Age', text: '20', Icon: CalendarIcon},
+    // {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Computer Vision, Photography, Robotics, Figure Skating', Icon: SparklesIcon},
+    {label: 'Study', text: 'Georgia Institute Of Technology', Icon: AcademicCapIcon},
+    {label: 'Employment (Summer 2023 Intern)', text: 'Appian', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -128,66 +137,66 @@ export const skills: SkillGroup[] = [
         name: 'English',
         level: 10,
       },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+//       {
+//         name: 'French',
+//         level: 4,
+//       },
+//       {
+//         name: 'Spanish',
+//         level: 3,
+//       },
     ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
+//   },
+//   {
+//     name: 'Frontend development',
+//     skills: [
+//       {
+//         name: 'React',
+//         level: 9,
+//       },
+//       {
+//         name: 'Typescript',
+//         level: 7,
+//       },
+//       {
+//         name: 'GraphQL',
+//         level: 6,
+//       },
+//     ],
+//   },
+//   {
+//     name: 'Backend development',
+//     skills: [
+//       {
+//         name: 'Node.js',
+//         level: 8,
+//       },
+//       {
+//         name: 'Rust',
+//         level: 5,
+//       },
+//       {
+//         name: 'Golang',
+//         level: 4,
+//       },
+//     ],
+//   },
+//   {
+//     name: 'Mobile development',
+//     skills: [
+//       {
+//         name: 'React Native',
+//         level: 9,
+//       },
+//       {
+//         name: 'Flutter',
+//         level: 4,
+//       },
+//       {
+//         name: 'Swift',
+//         level: 3,
+//       },
+//     ],
   },
 ];
 
@@ -225,42 +234,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://timbaker.me',
     image: porfolioImage5,
   },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
 ];
 
 /**
@@ -268,39 +241,52 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2024',
+    location: 'Georgia Institute Of Technology',
+    title: 'Bachelors in Computer Science',
+    content: <p>Courses: Algorithms, Data Structures, Research</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Jan 2022 - Present',
+    location: 'Atlanta, GA',
+    title: 'MealPirates',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Leading ideation and front-end web development on a team of 4, using Node.js sub-stack to optimize app functionality and
+        improve customer experience
+        • Developing a food delivery service that aims to deliver restaurant food at prices lower than the current delivery services
+        • Utilizing GIT version control for project collaboration and analysis
+        • Selected by Georgia Tech CreateX Startup launch program, offered $400K in seed funding to launch the product
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Sep 2021 - Present',
+    location: 'Atlanta, GA',
+    title: 'Undergraduate Student Research',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Applying Object-Oriented CV algorithms coded in python to accurately position a robot arm for an optimal position with
+        respect to the plant
+        • Employing PyTorch and OpenCV python libraries to modify 3D point clouds to convert them to volumetric analysis
+        • Utilizing ROS nodes to automate the data collection processes which reduced the manual workload by 50%
+        • Using C++ and Python libraries to build an algorithm to enable both manual and autonomous control from onsite and remote
+        locations
+      </p>
+    ),
+  },
+  {
+    date: 'Aug 2020 - Jan 2021',
+    location: 'Atlanta, GA',
+    title: 'Intern',
+    content: (
+      <p>
+        Led quality assurance process for iOS and Android mobile app platforms
+        • Conducted competitor analysis across six companies and identified vital opportunities
+        • Scoped new connectivity features and led a team of designers and developers to bring the product to the market
       </p>
     ),
   },
@@ -336,27 +322,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'You can reach me here:',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'harshsuhith@gmail.com',
+      href: 'mailto:harshsuhith@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Atlanta, USA',
+      href: 'https://goo.gl/maps/BdHtDdso3Tcc9c4s6',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@harshmuriki24',
+      href: 'https://www.instagram.com/harshmuriki24/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'harshmuriki',
+      href: 'https://github.com/harshmuriki',
     },
   ],
 };
@@ -365,9 +351,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/harshmuriki'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/venkata-harsh-muriki/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/harshmuriki24/'},
+  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/harshmuriki'},
 ];
